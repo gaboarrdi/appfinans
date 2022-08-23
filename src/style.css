@@ -1,0 +1,96 @@
+
+.oi{
+    display: block;
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(227, 230, 226);
+    color: rgb(16, 16, 27);
+    padding: 50px;
+}
+
+.container{
+    max-width: 1120px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin-top: -20px;
+    justify-content: space-around;
+    
+}
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(148, 179, 235);
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 30%;
+    color: rgb(16, 16, 27);
+   
+}
+
+.headerCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+    font-size: 25px;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+}
+
+.total {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form {
+    max-width: 1120px;
+    margin: 20px auto;
+    width: 98%;
+    background: rgb(227, 230, 226);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+    gap: 10px;
+}
+
+.inputContent{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.radioGroup{
+    display: flex;
+    align-items: center;
+}
+.radioGroupInput{
+    margin-left: 20px;
+    accent-color: black;
+    margin-top: 0;  
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color:rgb(148, 179, 235) ;
+}
