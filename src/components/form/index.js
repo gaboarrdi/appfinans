@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import Grid from "../grid";
 
-const Form = ({handleAdd}) => {
+const Form = ({handleAdd, transactionsList , setTransactionsList}) => {
     const [desc, setDesk] = useState("");
     const [amount, setAmount] = useState("");
     const [isExpense, setExpense] = useState(false);
@@ -46,11 +47,14 @@ const Form = ({handleAdd}) => {
         </div>
         
         <button onClick={handleSave}>ADICIONAR</button>
+
         
            
         
         
        </div>
+       < Grid itens={transactionsList} setItens={setTransactionsList} />
+        
        </>
     )
      
